@@ -5,10 +5,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "john Doe",
+      name: "John Doe",
       age: 34,
       enrollmentNo: "12345678",
-      // year: 1964
+     
     };
     this.handleClick = this.handleClick.bind(this);
 
@@ -21,7 +21,7 @@ class App extends React.Component {
     return (
       <>
        
-         <h1> Hello my name is  {this.state.name}</h1>  <p> and I am <span id="age"> {this.state.age} </span> years old and my enrollment no is {this.state.enrollmentNo} </p>
+         <h1> Hello, my name is  {this.state.name}</h1>  <p> and I am <span id="age"> {this.state.age} </span> years old and my enrollment no is {this.state.enrollmentNo} </p>
         <button onClick={this.handleClick}>Increase Age</button>
       </>
     );
