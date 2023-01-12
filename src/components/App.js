@@ -20,8 +20,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <p>
-          Hello my name is <h1> {this.state.name}</h1> and I am <span id="age"> {this.state.age} </span> years old and my enrollment no is {this.state.enrollmentNo} </p>
+       
+         <h1> Hello my name is  {this.state.name}</h1>  <p> and I am <span id="age"> {this.state.age} </span> years old and my enrollment no is {this.state.enrollmentNo} </p>
         <button onClick={this.handleClick}>Increase Age</button>
       </>
     );
